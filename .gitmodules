@@ -376,20 +376,20 @@
 [submodule "jane_rope"]
 	path = jane_rope
 	url = https://github.com/public-release-reloaded/jane_rope.git
-[submodule "public-release-reloaded_crc"]
-	path = public-release-reloaded_crc
+[submodule "janestreet_crc"]
+	path = janestreet_crc
 	url = https://github.com/public-release-reloaded/janestreet_crc.git
-[submodule "public-release-reloaded_csv"]
-	path = public-release-reloaded_csv
+[submodule "janestreet_csv"]
+	path = janestreet_csv
 	url = https://github.com/public-release-reloaded/janestreet_csv.git
 [submodule "jane-street-headers"]
 	path = jane-street-headers
 	url = https://github.com/public-release-reloaded/jane-street-headers.git
-[submodule "public-release-reloaded_lru_cache"]
-	path = public-release-reloaded_lru_cache
+[submodule "janestreet_lru_cache"]
+	path = janestreet_lru_cache
 	url = https://github.com/public-release-reloaded/janestreet_lru_cache.git
-[submodule "public-release-reloaded_shims"]
-	path = public-release-reloaded_shims
+[submodule "janestreet_shims"]
+	path = janestreet_shims
 	url = https://github.com/public-release-reloaded/janestreet_shims.git
 [submodule "jane_term_types"]
 	path = jane_term_types
