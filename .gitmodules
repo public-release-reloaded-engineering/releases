@@ -256,6 +256,9 @@
 [submodule "filesystem"]
 	path = filesystem
 	url = https://github.com/public-release-reloaded/filesystem.git
+[submodule "fixed_list"]
+	path = fixed_list
+	url = https://github.com/public-release-reloaded/fixed_list.git
 [submodule "flexible_sexp"]
 	path = flexible_sexp
 	url = https://github.com/public-release-reloaded/flexible_sexp.git
@@ -307,6 +310,9 @@
 [submodule "hardcaml_of_verilog"]
 	path = hardcaml_of_verilog
 	url = https://github.com/public-release-reloaded/hardcaml_of_verilog.git
+[submodule "hardcaml_packed_array"]
+	path = hardcaml_packed_array
+	url = https://github.com/public-release-reloaded/hardcaml_packed_array.git
 [submodule "hardcaml_step_testbench"]
 	path = hardcaml_step_testbench
 	url = https://github.com/public-release-reloaded/hardcaml_step_testbench.git

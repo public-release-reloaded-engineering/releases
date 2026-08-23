@@ -1,6 +1,0 @@
-(library
- (name hardcaml_packed_array)
- (public_name hardcaml_packed_array)
- (libraries base hardcaml.kernel)
- (preprocess
-  (pps ppx_jane)))
