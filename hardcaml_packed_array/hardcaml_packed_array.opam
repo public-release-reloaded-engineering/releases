@@ -3,7 +3,7 @@ maintainer: "Jane Street developers"
 authors: ["Jane Street Group, LLC"]
 homepage: "https://github.com/janestreet/hardcaml_packed_array"
 bug-reports: "https://github.com/janestreet/hardcaml_packed_array/issues"
-dev-repo: "git+https://github.com/janestreet/hardcaml_packed_array.git"
+dev-repo: "git+https://github.com/public-release-reloaded/hardcaml_packed_array.git#v0.18_preview.130.106+341+reloaded"
 doc: "https://ocaml.janestreet.com/ocaml-core/latest/doc/hardcaml_packed_array/index.html"
 license: "MIT"
 x-maintenance-intent: ["(latest)"]
@@ -12,10 +12,10 @@ build: [
 ]
 depends: [
   "ocaml" {>= "5.1.0"}
-  "base"
-  "hardcaml"
-  "ppx_jane"
-  "dune"     {>= "3.17.0"}
+  "base" {>= "v0.18~" & < "v0.19~"}
+  "hardcaml" {>= "v0.18~" & < "v0.19~"}
+  "ppx_jane" {>= "v0.18~" & < "v0.19~"}
+  "dune" {>= "3.17.0"}
 ]
 available: arch != "x86_32"
 synopsis: "Hardcaml interfaces as packed array"

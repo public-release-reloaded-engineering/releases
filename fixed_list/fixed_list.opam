@@ -3,7 +3,7 @@ maintainer: "Jane Street developers"
 authors: ["Jane Street Group, LLC"]
 homepage: "https://github.com/janestreet/fixed_list"
 bug-reports: "https://github.com/janestreet/fixed_list/issues"
-dev-repo: "git+https://github.com/janestreet/fixed_list.git"
+dev-repo: "git+https://github.com/public-release-reloaded/fixed_list.git#v0.18_preview.130.106+341+reloaded"
 doc: "https://ocaml.janestreet.com/ocaml-core/latest/doc/fixed_list/index.html"
 license: "MIT"
 x-maintenance-intent: ["(latest)"]
@@ -12,9 +12,9 @@ build: [
 ]
 depends: [
   "ocaml" {>= "5.1.0"}
-  "core"
-  "ppx_jane"
-  "dune"     {>= "3.17.0"}
+  "core" {>= "v0.18~" & < "v0.19~"}
+  "ppx_jane" {>= "v0.18~" & < "v0.19~"}
+  "dune" {>= "3.17.0"}
 ]
 available: arch != "x86_32"
 synopsis: "Lists whose length is tracked in the OCaml type system"
