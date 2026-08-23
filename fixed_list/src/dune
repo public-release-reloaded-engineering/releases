@@ -1,0 +1,6 @@
+(library
+ (name fixed_list)
+ (public_name fixed_list)
+ (libraries core)
+ (preprocess
+  (pps ppx_jane -compare-require-explicit-locality)))
